@@ -1,0 +1,19 @@
+{
+      "accountAssociation": {
+          "header": "eyJmaWQiOjI5MTc1MiwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDE0Mzc2NjcwMjQ3Mzc0MWM2ODIzYzBjMUVBMTRjOTg3NTFFNjBFRTAifQ",
+              "payload": "eyJkb21haW4iOiJtb24tc3Bpbi52ZXJjZWwuYXBwIn0",
+                  "signature": "MHg5ZTM5ZDU3ODc5ZDQ0ODY3ZmMwZDM3M2RiOWRlYTgwNzg3ZjVjYzU0N2QyYzg4NWNkYWRhZWExMjMwZTVmZjlmMzMxZTBlNjU0YWQyMjE4YzU3YmIwMjQ3YmRjMzM5YWEzZWNhNTc3ZjlhYmQ4MTczMmY3MDg0ZDQ4N2E1MTBmNzFi"
+                    },
+                      "frame": {
+                          "version": "1",
+                              "name": "Mon Spin",
+                                  "iconUrl": "https://mon-spin.vercel.app/mon.png",
+                                      "homeUrl": "https://mon-spin.vercel.app",
+                                          "imageUrl": "https://mon-spin.vercel.app/mon.png",
+                                              "buttonTitle": "Play Spin",
+                                                  "splashImageUrl": "https://mon-spin.vercel.app/mon.png",
+                                                      "splashBackgroundColor": "#eeccff",
+                                                          "webhookUrl": "https://mon-spin.vercel.app/api/webhook"
+                                                            }
+                                                            }
+}
