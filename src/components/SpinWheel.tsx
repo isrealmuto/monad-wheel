@@ -62,7 +62,7 @@ export default function SpinWheel() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h1-screen bg-teal-300">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-teal-300">
       <Wheel
         mustStartSpinning={mustSpin}
         prizeNumber={prizeIndex}
@@ -79,28 +79,28 @@ export default function SpinWheel() {
         }}
       />
 
-      <button onClick={spin} className="mt-10 bg-purple-300 hover:bg-purple-400 text-white font-bold px-6 py-3 rounded-full shadow-md shadow-purple-700 transition-all duration-200">
+      <button onClick={spin} className="mt-8 bg-purple-300 hover:bg-purple-400 text-white px-6 py-3 rounded-2xl shadow-lg shadow-purple-700">
         Spin
       </button>
 
       {showModal && reward && (
-        <div className="fixed inset-0 flex items-center justify-center bg-teal-300 bg-opacity-10 z-10">
-          <div className="bg-teal-300 rounded-2xl shadow-2xl p-6 w-80 relative">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-40 z-50">
+          <div className="bg-white rounded-2xl shadow-2xl p-6 w-80 relative">
             <button
               onClick={() => setShowModal(false)}
-              className="absolute bg-white top-2 right-3 text-gray-500 hover:text-gray-800 text-lg font-bold"
+              className="absolute top-2 right-3 text-gray-500 hover:text-gray-800 text-lg font-bold"
             >
               ✕
             </button>
             <h2 className="text-xl font-bold text-center text-purple-700 mb-4">
-              🎉 YO YO YO! 🎉
+              🎉 Selamat! 🎉
             </h2>
             <p className="text-center text-gray-800 mb-4">
               Kamu menang {reward} MONAD
             </p>
             <button
               onClick={shareCast}
-              className="bg-sky-500 hover:bg-sky-700 ..."
+              className="w-full bg-purple-400 hover:bg-purple-500 text-white font-semibold py-2 px-4 rounded-xl shadow-md"
             >
               Share ke Farcaster
             </button>
