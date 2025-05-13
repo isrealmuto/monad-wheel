@@ -100,7 +100,7 @@ export default function SpinWheel() {
             </p>
             <button
               onClick={shareCast}
-              className="w-full bg-purple-400 hover:bg-purple-500 text-white font-semibold py-2 px-4 rounded-xl shadow-md"
+              className="bg-sky-500 hover:bg-sky-700 ..."
             >
               Share ke Farcaster
             </button>
