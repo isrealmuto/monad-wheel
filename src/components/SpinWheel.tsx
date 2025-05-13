@@ -62,7 +62,7 @@ export default function SpinWheel() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-teal-300">
+    <div className="flex flex-col items-center justify-center min-h1-screen bg-teal-300">
       <Wheel
         mustStartSpinning={mustSpin}
         prizeNumber={prizeIndex}
