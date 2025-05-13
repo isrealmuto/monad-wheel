@@ -84,7 +84,7 @@ export default function SpinWheel() {
       </button>
 
       {showModal && reward && (
-        <div className="fixed inset-0 flex items-center justify-center bg-transparent">
+        <div className="fixed inset-0 flex items-center justify-center bg-transparent bg-opacity-40 z-50">
           <div className="bg-white rounded-2xl shadow-2xl p-6 w-80 relative">
             <button
               onClick={() => setShowModal(false)}
