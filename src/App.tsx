@@ -29,7 +29,7 @@ function ConnectMenu() {
   if (isConnected && address) {
     return (
       <>
-        <p className="mb-2 text-sm text-gray-600">💼 Connected: {address}</p>
+        <p className="mb-2 text-sm text-gray-600">💼 Connected: {address.slice(0, 14)}</p>
         <div className="min-h1-screen flex items-center justify-center bg-gray-100"></div>
         <SpinWheel />
         
