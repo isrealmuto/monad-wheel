@@ -2,7 +2,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-teal-300; /* tailwind tosca */
+  @apply bg-neutral-500; /* tailwind tosca */
   /* atau tanpa Tailwind: */
   /* background-color: #5eead4; */
 }

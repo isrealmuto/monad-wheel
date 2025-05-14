@@ -57,12 +57,12 @@ export default function SpinWheel() {
       setShowModal(false);
     } catch (err) {
       console.error("Failed to share cast", err);
-      alert("Gagal membagikan cast 😢");
+      alert("Failed to share😢");
     }
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h1-screen bg-teal-300">
+    <div className="flex flex-col items-center justify-center min-h1-screen">
       <Wheel
         mustStartSpinning={mustSpin}
         prizeNumber={prizeIndex}
