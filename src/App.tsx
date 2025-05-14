@@ -27,14 +27,21 @@ function App() {
   }, []); 
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-start p-6
+    <div className="min-h-screen flex flex-col items-left justify-start p-6
     bg-cover bg-center" style={{ backgroundImage: "url('/bg.png')" }}>
-      <h1 className="text-2xl font-bold mb-6">🎯 Spin & Win MON</h1>
-      <appkit-button balance="hide" />
+      <header className="text-2xl font-bold mb-6">🎯 MONAD WHEEL</header>
+     
+
+     <appkit-button balance="hide" />
       <SpinWheel />
-      
+   
     </div>
+
+
   );
+
+
+
 }
 
   
