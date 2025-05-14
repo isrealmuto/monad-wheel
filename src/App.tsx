@@ -1,22 +1,35 @@
 import { sdk } from "@farcaster/frame-sdk";
 import { useEffect } from "react";
+import { createAppKit } from "@reown/appkit/react";
+import { wagmiAdapter, projectId, metadata } from "./hooks/wagmi";
+import { monadTestnet } from "@reown/appkit/networks";
 import SpinWheel from "./components/SpinWheel";
-import Connect from "./components/Connect";
 
+createAppKit({
+  adapters: [wagmiAdapter],
+  projectId,
+  networks: [monadTestnet],
+  defaultNetwork: monadTestnet,
+  metadata,
+  themeMode: "light",
+  features: {
+    analytics: true,
+    email: false,
+    socials: false,
+  },
+});
 
 
 function App() {
 
    useEffect(() => {
-    sdk.actions.ready(), sdk.actions.addFrame
-() 
-  }, 
-  []); 
+    sdk.actions.ready(); 
+  }, []); 
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-start p-35">
+    <div className="min-h-screen flex flex-col items-center justify-start p-6">
       <h1 className="text-2xl font-bold mb-6">🎯 Spin & Win MON</h1>
-      <Connect />
+      <appkit-button balance="hide" />
       <SpinWheel />
       
     </div>
