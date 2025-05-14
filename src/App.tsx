@@ -11,7 +11,7 @@ createAppKit({
   networks: [monadTestnet],
   defaultNetwork: monadTestnet,
   metadata,
-  themeMode: "light",
+  themeMode: "dark",
   features: {
     analytics: true,
     email: false,
