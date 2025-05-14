@@ -12,7 +12,9 @@
   "dependencies": {
     "@farcaster/frame-sdk": "^0.0.40",
     "@farcaster/frame-wagmi-connector": "^0.0.28",
-    "@tanstack/react-query": "^5.76.0",
+    "@reown/appkit": "^1.7.4",
+    "@reown/appkit-adapter-wagmi": "^1.7.4",
+    "@tanstack/react-query": "^5.76.1",
     "autoprefixer": "^10.4.21",
     "axios": "^1.9.0",
     "postcss": "^8.5.3",
@@ -20,6 +22,7 @@
     "react-custom-roulette": "^1.4.1",
     "react-dom": "^18.2.0",
     "tailwindcss": "^4.1.6",
+    "viem": "^2.29.2",
     "view": "^1.1.1",
     "wagmi": "^2.15.2"
   },
